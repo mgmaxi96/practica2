@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Detalle del producto <%=producto.id %></h1>
+
+    <h2>Nombre: <%= producto.nombre %></h2>
+    <h2>Precio: <%= producto.precio %></h2>
+
+    <form action="/home/<%=producto.id%>/eliminar?_method=delete" method="post">
+    <input type="submit" value="Eliminar">
+    </form>
+    <br>
+    
+    <form action="/home/<%=producto.id%>/editar" method="get">
+        <input type="submit" value="Editar">
+    </form>
+
+</body>
+</html>

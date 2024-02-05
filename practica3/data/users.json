@@ -1,0 +1,80 @@
+[
+    {
+        "email": "maxi.mrtnz@gmail.com",
+        "username": "elmasi",
+        "password": "123123",
+        "id": 1
+    },
+    {
+        "email": "maxi.mrtnz@gmail.com",
+        "username": "elmasi",
+        "password": "123123",
+        "id": "901c87c9-936e-422d-99e2-50f50973535a"
+    },
+    {
+        "email": "maxi.mrtnz@gmail.com",
+        "username": "elmasi",
+        "password": "8fae0443-b3e7-4397-8a86-4e247fc0c1ed",
+        "id": "43a39738-f1bf-4cd4-9328-4c3535b80fbe"
+    },
+    {
+        "email": "maxi.mrtnz@gmail.com",
+        "username": "elmasiiii",
+        "password": "c0c5c5d0-0f8d-4236-9b00-3ba49bae25f4",
+        "id": "da712ba0-0272-4829-b552-b70898634aff"
+    },
+    {
+        "email": "maxi.m96@hotmail.com",
+        "username": "maxioa",
+        "password": "ea297137-52e5-44bd-a208-4503cf1eccb6",
+        "id": "e742d966-5d67-4256-9b27-6e118efc262f"
+    },
+    {
+        "email": "maxi.m96@hotmail.com",
+        "username": "maxioaaa",
+        "password": "123123",
+        "id": "d3b02d05-71f1-4ad2-a840-bcd83f990107"
+    },
+    {
+        "email": "maxi.m96@hotmail.com",
+        "username": "maxioaaa",
+        "password": "$2b$12$KEa8GVbQCWUcwhGXbxKtYuqLdIYTUbbKJ3lMI8gdT8h9inj2A7ovu",
+        "id": "6ab95813-8a3a-4c02-930e-3608b7b8b962"
+    },
+    {
+        "email": "maxi.m96@hotmail.com",
+        "username": "golasd",
+        "password": "$2b$12$UeS948fxjfNiUH7q.6HIO.VBGy9wS6WiLJayjWgC7G5ZbdME.EHvy",
+        "id": "b0aaacdf-9e48-4133-80d3-96862f1d1c07"
+    },
+    {
+        "email": "maxi.mrtnz@gmail.com",
+        "username": "elmasi",
+        "password": "$2b$12$kblTPLdc9bBWuXGkkxpuKuuptSBO8P8g/Wc3h0DY3xdgQGLOtXrx6",
+        "id": "19034b1b-875c-48cf-abef-89004c4a5a55"
+    },
+    {
+        "email": "maxi@gmail.com",
+        "username": "maxi",
+        "password": "$2b$12$o9CtX3XBh5YBSqD6oTkAyO5w228NvrEnVOUG3YGwUW9xKQsKrQnN.",
+        "id": "50427b74-1d5e-4605-a5c7-8b48af8d0bf2"
+    },
+    {
+        "email": "maxi@gmail.com",
+        "username": "maxi",
+        "password": "$2b$12$ZTGu981IZhmOj0XfPUAem.1/k/4ZxJhQQiuP0Erfgo1ELmCwL4YKm",
+        "id": "93951374-7185-40de-b3a8-3fcdbed48dcf"
+    },
+    {
+        "email": "maxi.mrtnz@gmail.com",
+        "username": "hola",
+        "password": "$2b$12$kn5trGsCk1WmQRPKFTU88OaaqfpF8U3LCy0swQkwuMdEDDVqUI87S",
+        "id": "c100ef2c-7c58-463a-9a09-0183fc473c99"
+    },
+    {
+        "email": "hola@gmail.com",
+        "username": "holi",
+        "password": "$2b$12$Kt5YeJharSiv4ZHAJNqgGelWF8bJJG5x1AUxh9tU1Z5y2K5PUI/mO",
+        "id": "e5f396e2-0a29-49b3-995a-48872bc5e660"
+    }
+]

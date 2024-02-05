@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <% if (userData.username) {%>
+<form action="/users/sign-out" method="get">
+<input type="submit" value="Cerrar sesion">
+</form>
+
+        <% } %>
+    <nav>
+        <h1>
+            <%= userData.username %>
+        </h1>
+        <h1>
+            <%= userData.email %>
+        </h1>
+    </nav>
+
+
+    <form action="/home/crear" method="get">
+        <button> Nuevo Producto</button>
+    </form>
+
+
+    <% productos.forEach(e=> { %>
+        <article>
+            <p>
+                <%= e.nombre %>
+            </p>
+            <p>
+                <%= e.precio %>
+            </p>
+            <form action="/home/<%=e.id%>/detalle" method="get">
+                <button type="submit">detalle</button>
+            </form>
+        </article>
+        <% }); %>
+            <br>
+            <br>
+
+            <form action="/users/login" method="get">
+                <button type="submit">Iniciar Sesion pa</button>
+            </form>
+
+</body>
+
+</html>
