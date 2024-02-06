@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>hola masi</h1>
+
+    <form action="POST" action="/products">
+        <input name="nombre">
+        <input name="marca">
+        <input type="submit" value="Crear">
+    </form>
+
+    <% productos.forEach(e=>{ %>
+
+        <li>
+            <%= e.nombre %>
+            <%= e.marca %>
+          <%= e.id %>
+
+        </li>
+
+        <form action="/products/<%=e.id%>/update" method="get">
+            <button type="submit"> detalle </button>
+        </form>
+
+        <% }) %>
+
+
+
+</body>
+
+</html>

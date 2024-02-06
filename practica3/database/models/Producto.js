@@ -18,21 +18,27 @@ module.exports = (sequelize, Datatype) => {
             unique: true // para que el valor sea unico siempre
         },
         marca_id:{
-            type:Datatype.INTEGER // revisar, es una clave foranea 
-
+            type:Datatype.INTEGER, // revisar, es una clave foranea 
+            allowNull: false,
+            references:{
+                model:'',
+                key:'id'
+            }
         }
 
     }
     const config = {
-        tableName: 'clubes', // nombre tal cual esta en el php
+        tableName: 'productos', // nombre tal cual esta en el php
         timestamps: false // para no crear columnas created y updated de mas
 
     }
 
 
-    const Club = sequelize.define(alias, cols, config)
+    const Producto = sequelize.define(alias, cols, config)
 
-    return Club // siempre retornar, para darle valides a la variable Club
+    // siempre retornar, para darle valides a la variable producto
 
 
+   
+return Producto
 } 

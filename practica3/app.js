@@ -2,11 +2,15 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const fs = require('fs')
-const rutas = require('./rutas/homeRoute')
-const userRutas = require('./rutas/userRoute')
+
 const methodOverride = require('method-override')
 const cookieParser = require ('cookie-parser')
 const expressSession = require ('express-session')
+
+
+const productRoute = require ('./rutas/products')
+const rutas = require('./rutas/homeRoute')
+const userRutas = require('./rutas/userRoute')
 
 
 app.listen(3000, () => {
@@ -23,6 +27,7 @@ app.use(expressSession({secret:'este es mi secreto'}))
 
 app.use('/home', rutas);
 app.use('/users', userRutas)
+app.use('/products',productRoute)
 
 app.use((req,res,next)=>{
     if (req.cookies.email){
@@ -41,6 +46,8 @@ app.use((req,res,next)=>{
 app.set('view engine', 'ejs')
 app.set('views', [
     path.join(__dirname, './views/home'),
-    path.join(__dirname,'./views/users')
+    path.join(__dirname,'./views/users'),
+    path.join(__dirname,'./views/productos')
 ])
 
+// escribir bien la ruta

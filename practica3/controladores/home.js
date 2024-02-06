@@ -1,7 +1,9 @@
+const {Producto} = require('../database/models/Producto');
 const model = require('../models/productos')
 
 const controller = {
-    getHome: (req, res) => {
+    getHome: async (req, res) => {
+      
         let userData = req.session.user
         if (!userData){
             userData = {}
@@ -62,8 +64,7 @@ const controller = {
 
    model.deleteById (id)
    
-   res.redirect ('/home')         // HOLA FLOR
-
+   res.redirect ('/home')        
     },
 
     getCrear : (req,res) =>{
