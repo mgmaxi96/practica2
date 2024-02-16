@@ -1,0 +1,2 @@
+npx sequelize-cli migration:generate --name nombre de migracion
+npx sequelize-cli db:migrate 
